@@ -1,0 +1,41 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+#productos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: azure;
+}
+.producto img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.producto h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: red;
+    
+}
+.producto h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    background-color:white;
+    
+}
+
+.producto span { 
+    font-size: 15px;
+    color: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:antiquewhite;
+    
+}
